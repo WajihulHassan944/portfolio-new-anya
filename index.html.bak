@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- This is Squarespace. --><!-- gazelle-beige-9gej -->
 <base href="">
+
 <meta charset="utf-8" />
-<title>StylAn: Your Personal Style Assistant &mdash; Anya Narayan</title>
+<title>Anya Narayan</title>
+
+<link rel="image_src" href="http://static1.squarespace.com/static/5fdeb09ded4b90052b911cd7/5fe01979f11f517dbbef42c9/5fe1927bc34a2a2a7c8eb6bf/1682975070962/Muse%2Bhigh-fidelity%2Bmockup%2Bin%2BiPhone%2Bscreen.png?format=1500w" />
+<meta itemprop="image" content="http://static1.squarespace.com/static/5fdeb09ded4b90052b911cd7/5fe01979f11f517dbbef42c9/5fe1927bc34a2a2a7c8eb6bf/1682975070962/Muse%2Bhigh-fidelity%2Bmockup%2Bin%2BiPhone%2Bscreen.png?format=1500w"/>
 <script type="text/javascript" src="//use.typekit.net/ik/ozgPjKW7ruedhX8n0GdIW-VDrfPI19WB1ozXGg_taX3fel9IfFHN4UJLFRbh52jhWDmcZemKw28qZAbXjRq3w29kjRqUwAFqFU7PMkG0jAFu-WsoShFGZAsude80ZkoRdhXCHKoyjamTiY8Djhy8ZYmC-Ao1Oco8if37OcBDOcu8OfG0ZhBEZAUCZPuKZA81ZPXoZhm7O1FUiABkZWF3jAF8OcFzdP37O1FUiABkZWF3jAF8ShFGZAsude80ZkoRdhXCjAFu-WsoShFGZAsude80ZkoRdhXCjAFu-WsoShFGZAsude80Zko0ZWbCjWw0dA9CZeNXie88jcUoie60jhNlOeiypcmCde9ljcmTZh9l5Ai8-KoDSWmyScmDSeBRZPoRdhXCdeNRjAUGdaFXOYFUiABkZWF3jAF8ShFGZAsude80ZkoRdhXCiaiaOcBRiA8XpWFR-emqiAUTdcS0jhNlOYiaikoyjamTiY8Djhy8ZYmC-Ao1Oco8ifUaiaS0jWw0dA9CiaiaOcsziYsTZA4CpWsGOcFzdPUaiaS0ZhBEZAUCZPuKZA81ZPXoZhm7O1FUiABkZWF3jAF8OcFzdPUaiaS0SaBujW48SagyjhmDjhy8ZYmC-Ao1OcFzdPJHjAFudA80OWgkdkJF-A4lOWgCZW6ldAN0dkJOjAs8deU8OWFyd1w7f6R5k3IbMg6IJMJ7f6RBk3IbMg6YJMJ7f6RJk3IbMg65JMJ7f6Rek3IbMg6sJMJ7f6Krl3JbMs6BJMJ7f6RhyMIbMy62JMJ7f6RzyMIbMy6YJMJ7f6RayMIbMy6FJMJ7f6R3yMIbMy6sJMHbMj_Nl-Ie.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700">
@@ -26,7 +30,11 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-187903971-1"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('set', 'developer_id.dZjQwMz', true);gtag('config', 'UA-187903971-1');</script><!-- End of Squarespace Headers -->
     
       <link rel="stylesheet" type="text/css" href="https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1712250249111-GP0H9WETKQK80BUL042M/static.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- aos css link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+   <link rel="stylesheet" href="myCustomStyles.css">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 <link rel="manifest" href="site.webmanifest">
@@ -550,7 +558,7 @@
   
     <div class="header-nav-item header-nav-item--collection header-nav-item--homepage">
       <a
-        href="index.html"
+        href="#home"
         data-animation-role="header-element"
         style="font-family:helvetica;"
       >
@@ -565,7 +573,7 @@
   
     <div class="header-nav-item header-nav-item--collection">
       <a
-        href="index.html"
+        href="#about"
         data-animation-role="header-element"
         style="font-family:helvetica;"
       >
@@ -580,7 +588,7 @@
   
     <div class="header-nav-item header-nav-item--collection">
       <a
-        href="index.html"
+        href="#portfolio"
         data-animation-role="header-element"
         style="font-family:helvetica;"
       >
@@ -625,7 +633,7 @@
                 <div class="header-actions-action header-actions-action--cta" data-animation-role="header-element">
                   <a
                     class="btn btn--border theme-btn--primary-inverse sqs-button-element--primary"
-                    href="index.html"
+                    href="#contact"
                     style="font-family:helvetica;"
                   >
                     Contact
@@ -717,7 +725,7 @@
   
     <div class="header-nav-item header-nav-item--collection header-nav-item--homepage">
       <a
-        href="index.html"
+        href="#home"
         data-animation-role="header-element"
         style="font-family:helvetica;"
       >
@@ -732,7 +740,7 @@
   
     <div class="header-nav-item header-nav-item--collection">
       <a
-        href="index.html"
+        href="#about"
         data-animation-role="header-element"
         style="font-family:helvetica;"
       >
@@ -747,7 +755,7 @@
   
     <div class="header-nav-item header-nav-item--collection">
       <a
-        href="index.html"
+        href="#portfolio"
         data-animation-role="header-element"
         style="font-family:helvetica;"
       >
@@ -792,7 +800,7 @@
                 <div class="header-actions-action header-actions-action--cta" data-animation-role="header-element">
                   <a
                     class="btn btn--border theme-btn--primary-inverse sqs-button-element--primary"
-                    href="index.html"
+                    href="#contact"
                     style="font-family:helvetica;"
                   >
                     Contact
@@ -1110,7 +1118,7 @@
           
             <div class="container header-menu-nav-item header-menu-nav-item--collection header-menu-nav-item--homepage">
               <a
-                href="index.html"
+                href="#home"
                 
               >
                 <div class="header-menu-nav-item-content">
@@ -1127,7 +1135,7 @@
           
             <div class="container header-menu-nav-item header-menu-nav-item--collection">
               <a
-                href="index.html"
+                href="#about"
                 
               >
                 <div class="header-menu-nav-item-content">
@@ -1144,7 +1152,7 @@
           
             <div class="container header-menu-nav-item header-menu-nav-item--collection">
               <a
-                href="index.html"
+                href="#portfolio"
                 
               >
                 <div class="header-menu-nav-item-content">
@@ -1167,7 +1175,7 @@
             <div class="header-menu-cta">
               <a
                 class="theme-btn--primary btn sqs-button-element--primary"
-                href="index.html"
+                href="#contact"
                 
               >
                 Contact
@@ -1188,930 +1196,142 @@
           
 <article class="sections" id="sections" data-page-sections="5fe1927bc34a2a2a7c8eb6b3">
   
-  
-    
-    
-
-
-  
-
-
-<section
-  data-test="page-section"
-  
-  data-section-theme="white"
-  class='page-section 
-    
-      full-bleed-section
-      layout-engine-section
-    
-    background-width--full-bleed
-    
-      section-height--small
-    
-    
-      content-width--wide
-    
-    horizontal-alignment--center
-    vertical-alignment--middle
-    
-      
-    
-    
-    white'
-  
-  data-section-id="644bd5efeb6ec896625c028f"
-  
-  data-controller="SectionWrapperController"
-  data-current-styles="{
-&quot;imageOverlayOpacity&quot;: 0.15,
-&quot;backgroundWidth&quot;: &quot;background-width--full-bleed&quot;,
-&quot;sectionHeight&quot;: &quot;section-height--small&quot;,
-&quot;customSectionHeight&quot;: 85,
-&quot;horizontalAlignment&quot;: &quot;horizontal-alignment--center&quot;,
-&quot;verticalAlignment&quot;: &quot;vertical-alignment--middle&quot;,
-&quot;contentWidth&quot;: &quot;content-width--wide&quot;,
-&quot;customContentWidth&quot;: 50,
-&quot;sectionTheme&quot;: &quot;white&quot;,
-&quot;sectionAnimation&quot;: &quot;none&quot;,
-&quot;backgroundMode&quot;: &quot;image&quot;
-}"
-  data-current-context="{
-&quot;video&quot;: {
-&quot;playbackSpeed&quot;: 0.5,
-&quot;filter&quot;: 1,
-&quot;filterStrength&quot;: 0,
-&quot;zoom&quot;: 0,
-&quot;videoSourceProvider&quot;: &quot;none&quot;
-},
-&quot;backgroundImageId&quot;: null,
-&quot;backgroundMediaEffect&quot;: {
-&quot;type&quot;: &quot;none&quot;
-},
-&quot;divider&quot;: {
-&quot;enabled&quot;: false
-},
-&quot;typeName&quot;: &quot;portfolio-grid-basic&quot;
-}"
-  data-animation="none"
-  data-fluid-engine-section
-   
-  
-    
-  
-  
->
-  <div
-    class="section-border" 
-    
-  >
-    <div class="section-background">
-    
-      
-    
-    </div>
-  </div>
-  <div
-    class='content-wrapper'
-    style='
-      
-        
-      
-    '
-  >
-    <div
-      class="content"
-      
-    >
-      
-      
-      
-      
-      
-      
-      <div data-fluid-engine="true"><style>
-
-.fe-644bd5ef8c95b99493c7f709 {
-  --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
-  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );
-
-  display: grid;
-  position: relative;
-  grid-area: 1/1/-1/-1;
-  grid-template-rows: repeat(14,minmax(24px, auto));
-  grid-template-columns:
-    minmax(var(--grid-gutter), 1fr)
-    repeat(8, minmax(0, var(--cell-max-width)))
-    minmax(var(--grid-gutter), 1fr);
-  row-gap: 11.0px;
-  column-gap: 11.0px;
-}
-
-@media (min-width: 768px) {
-  .background-width--inset .fe-644bd5ef8c95b99493c7f709 {
-    --inset-padding: calc(var(--sqs-site-gutter) * 2);
-  }
-
-  .fe-644bd5ef8c95b99493c7f709 {
-    --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
-    --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1)) ) / 24 );
-    --inset-padding: 0vw;
-
-    --row-height-scaling-factor: 0.0215;
-    --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
-
-    grid-template-rows: repeat(12,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
-    grid-template-columns:
-      minmax(var(--grid-gutter), 1fr)
-      repeat(24, minmax(0, var(--cell-max-width)))
-      minmax(var(--grid-gutter), 1fr);
-  }
-}
-
-
-  .fe-block-644bd5eff6f520a0e7af10e4 {
-    grid-area: 1/2/7/10;
-    z-index: 0;
-
-    @media (max-width: 767px) {
-      
-    }
-  }
-
-  .fe-block-644bd5eff6f520a0e7af10e4 .sqs-block {
-    justify-content: flex-start;
-  }
-
-  .fe-block-644bd5eff6f520a0e7af10e4 .sqs-block-alignment-wrapper {
-    align-items: flex-start;
-  }
-
-  @media (min-width: 768px) {
-    .fe-block-644bd5eff6f520a0e7af10e4 {
-      grid-area: 1/2/10/14;
-      z-index: 0;
-
-      
-    }
-
-    .fe-block-644bd5eff6f520a0e7af10e4 .sqs-block {
-      justify-content: flex-start;
-    }
-
-    .fe-block-644bd5eff6f520a0e7af10e4 .sqs-block-alignment-wrapper {
-      align-items: flex-start;
-    }
-  }
-
-  .fe-block-644bd5ef7f4165ba7b1c781c {
-    grid-area: 7/2/15/10;
-    z-index: 1;
-
-    @media (max-width: 767px) {
-      
-    }
-  }
-
-  .fe-block-644bd5ef7f4165ba7b1c781c .sqs-block {
-    justify-content: center;
-  }
-
-  .fe-block-644bd5ef7f4165ba7b1c781c .sqs-block-alignment-wrapper {
-    align-items: center;
-  }
-
-  @media (min-width: 768px) {
-    .fe-block-644bd5ef7f4165ba7b1c781c {
-      grid-area: 1/14/13/26;
-      z-index: 1;
-
-      
-    }
-
-    .fe-block-644bd5ef7f4165ba7b1c781c .sqs-block {
-      justify-content: center;
-    }
-
-    .fe-block-644bd5ef7f4165ba7b1c781c .sqs-block-alignment-wrapper {
-      align-items: center;
-    }
-  }
-
-</style><div class="fluid-engine fe-644bd5ef8c95b99493c7f709"><div class="fe-block fe-block-644bd5eff6f520a0e7af10e4"><div class="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-border-radii="&#123;&quot;topLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;topRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;&#125;" id="block-644bd5eff6f520a0e7af10e4"><div class="sqs-block-content">
-
-<div class="sqs-html-content">
-  <h1 style="white-space:pre-wrap; font-family:helvetica;" >
-StylAn: Your Personal Style Assistant</h1><h3 style="white-space:pre-wrap; font-family:helvetica;">Fashion Recommendation App</h3><p class="sqsrte-large" style="white-space:pre-wrap;font-family:helvetica;">
-StylAn: Your Personal Style Assistant
-Fashion Recommendation App
-StylAn is your ultimate fashion companion, offering personalized style recommendations tailored to your unique preferences and lifestyle. Discover new trends, create stunning looks, and elevate your wardrobe with ease.</p>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-</div></div></div><div class="fe-block fe-block-644bd5ef7f4165ba7b1c781c"><div class="sqs-block image-block sqs-block-image sqs-stretched" data-aspect-ratio="70.9090909090909" data-block-type="5" id="block-644bd5ef7f4165ba7b1c781c"><div class="sqs-block-content">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-    
-  
-    <div
-      class="
-        image-block-outer-wrapper
-        layout-caption-below
-        design-layout-fluid
-        image-position-left
-        combination-animation-none
-        individual-animation-none
-      "
-      data-test="image-block-fluid-outer-wrapper"
-    >
-      <div
-        class="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper"
-        data-animation-role="image"
-        
-  
-
-      >
-        <div
-          class="fluid-image-container sqs-image-content"
-          
-          style="overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);position: relative;width: 100%;height: 100%;"
-        >
-          
-
-          
-          
-
-          
-            
-              <button
-                class="sqs-block-image-button lightbox content-fill"
-                data-lightbox-theme="dark"
-              >
-                <span class="v6-visually-hidden"></span>
-                
-            
-            
-            
-            
-            
-            
-           <img src="imgthree.png" style="width:20%;">
-            
-              
-            
-            <div class="fluidImageOverlay"></div>
-          
-              </button>
-            
-          
-
-        </div>
-      </div>
-    </div>
-    <style>
-      .sqs-block-image .sqs-block-content {
-        height: 100%;
-        width: 100%;
-      }
-
-      
-        .fe-block-644bd5ef7f4165ba7b1c781c .fluidImageOverlay {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          mix-blend-mode: normal;
-          
-            
-            
-          
-          
-            opacity: 0;
-          
-        }
-      
-    </style>
-  
-
-
-  
-
-
-</div></div></div></div></div>
-    </div>
-  
-  </div>
-  
+<div class="wrapAroubnd">
+
+
+<section class="home" id="home">
+<div class="homeWrap">
+	<div class="homeOne">
+		<img src="imgone.png" data-aos="zoom-in">
+	</div>
+	<div class="homeTwo">
+		<h1 data-aos="zoom-in" style="font-family:helvetica;">Hey, I'm Anya!!</h1>
+		<p style="font-family:helvetica;" data-aos="fade-up">Raleigh-based designer passionate about creating inclusive and accessible digital spaces.</p>
+	</div></div>
 </section>
 
-  
-    
-    
 
-
-  
-    
-
-
-  
-
-    
-    
-
-
-  
-
-
-<section
-  data-test="page-section"
-  
-  data-section-theme="white-bold"
-  class='page-section has-section-divider
-    
-      full-bleed-section
-      layout-engine-section
-    
-    background-width--full-bleed
-    
-      section-height--medium
-    
-    
-      content-width--wide
-    
-    horizontal-alignment--center
-    vertical-alignment--middle
-    
-      
-    
-    
-    white-bold'
-  
-  data-section-id="644bd8190013754528702932"
-  
-  data-controller="SectionWrapperController"
-  data-current-styles="{
-&quot;imageOverlayOpacity&quot;: 0.15,
-&quot;backgroundWidth&quot;: &quot;background-width--full-bleed&quot;,
-&quot;sectionHeight&quot;: &quot;section-height--medium&quot;,
-&quot;horizontalAlignment&quot;: &quot;horizontal-alignment--center&quot;,
-&quot;verticalAlignment&quot;: &quot;vertical-alignment--middle&quot;,
-&quot;contentWidth&quot;: &quot;content-width--wide&quot;,
-&quot;customContentWidth&quot;: 50,
-&quot;sectionTheme&quot;: &quot;white-bold&quot;,
-&quot;sectionAnimation&quot;: &quot;none&quot;,
-&quot;backgroundMode&quot;: &quot;image&quot;
-}"
-  data-current-context="{
-&quot;video&quot;: {
-&quot;playbackSpeed&quot;: 0.5,
-&quot;filter&quot;: 1,
-&quot;filterStrength&quot;: 0,
-&quot;zoom&quot;: 0,
-&quot;videoSourceProvider&quot;: &quot;none&quot;
-},
-&quot;backgroundImageId&quot;: null,
-&quot;backgroundMediaEffect&quot;: {
-&quot;type&quot;: &quot;none&quot;
-},
-&quot;divider&quot;: {
-&quot;enabled&quot;: true,
-&quot;type&quot;: &quot;wavy&quot;,
-&quot;width&quot;: {
-&quot;unit&quot;: &quot;vw&quot;,
-&quot;value&quot;: 100.0
-},
-&quot;height&quot;: {
-&quot;unit&quot;: &quot;vw&quot;,
-&quot;value&quot;: 6.0
-},
-&quot;isFlipX&quot;: false,
-&quot;isFlipY&quot;: false,
-&quot;offset&quot;: {
-&quot;unit&quot;: &quot;px&quot;,
-&quot;value&quot;: 0.0
-},
-&quot;stroke&quot;: {
-&quot;style&quot;: &quot;solid&quot;,
-&quot;color&quot;: {
-&quot;type&quot;: &quot;THEME_COLOR&quot;
-},
-&quot;thickness&quot;: {
-&quot;unit&quot;: &quot;px&quot;,
-&quot;value&quot;: 6.0
-},
-&quot;dashLength&quot;: {
-&quot;unit&quot;: &quot;px&quot;,
-&quot;value&quot;: 5.0
-},
-&quot;gapLength&quot;: {
-&quot;unit&quot;: &quot;px&quot;,
-&quot;value&quot;: 15.0
-},
-&quot;linecap&quot;: &quot;square&quot;
-}
-},
-&quot;typeName&quot;: &quot;portfolio-grid-basic&quot;
-}"
-  data-animation="none"
-  data-fluid-engine-section
-   
-  
-  
->
-  <div
-    class="section-border" 
-    
-      data-controller="SectionDivider"
-      style="clip-path: url(#section-divider-644bd8190013754528702932);"
-    
-  >
-    <div class="section-background">
-    
-      
-    
-    </div>
-  </div>
-  <div
-    class='content-wrapper'
-    style='
-      
-        
-      
-    '
-  >
-    <div
-      class="content"
-      
-    >
-      
-      
-      
-      
-      
-      
-      <div data-fluid-engine="true"><style>
-
-.fe-644bd819f3d2844d471dc2c5 {
-  --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
-  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );
-
-  display: grid;
-  position: relative;
-  grid-area: 1/1/-1/-1;
-  grid-template-rows: repeat(31,minmax(24px, auto));
-  grid-template-columns:
-    minmax(var(--grid-gutter), 1fr)
-    repeat(8, minmax(0, var(--cell-max-width)))
-    minmax(var(--grid-gutter), 1fr);
-  row-gap: 11.0px;
-  column-gap: 11.0px;
-}
-
-@media (min-width: 768px) {
-  .background-width--inset .fe-644bd819f3d2844d471dc2c5 {
-    --inset-padding: calc(var(--sqs-site-gutter) * 2);
-  }
-
-  .fe-644bd819f3d2844d471dc2c5 {
-    --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
-    --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1)) ) / 24 );
-    --inset-padding: 0vw;
-
-    --row-height-scaling-factor: 0.0215;
-    --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
-
-    grid-template-rows: repeat(18,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
-    grid-template-columns:
-      minmax(var(--grid-gutter), 1fr)
-      repeat(24, minmax(0, var(--cell-max-width)))
-      minmax(var(--grid-gutter), 1fr);
-  }
-}
-
-
-  .fe-block-644bd819b99be461d4d94698 {
-    grid-area: 1/2/2/10;
-    z-index: 0;
-
-    @media (max-width: 767px) {
-      
-    }
-  }
-
-  .fe-block-644bd819b99be461d4d94698 .sqs-block {
-    justify-content: flex-start;
-  }
-
-  .fe-block-644bd819b99be461d4d94698 .sqs-block-alignment-wrapper {
-    align-items: flex-start;
-  }
-
-  @media (min-width: 768px) {
-    .fe-block-644bd819b99be461d4d94698 {
-      grid-area: 1/5/3/23;
-      z-index: 0;
-
-      
-    }
-
-    .fe-block-644bd819b99be461d4d94698 .sqs-block {
-      justify-content: flex-start;
-    }
-
-    .fe-block-644bd819b99be461d4d94698 .sqs-block-alignment-wrapper {
-      align-items: flex-start;
-    }
-  }
-
-  .fe-block-644bd8197efb95f4bc293e37 {
-    grid-area: 3/2/8/10;
-    z-index: 2;
-
-    @media (max-width: 767px) {
-      
-    }
-  }
-
-  .fe-block-644bd8197efb95f4bc293e37 .sqs-block {
-    justify-content: flex-start;
-  }
-
-  .fe-block-644bd8197efb95f4bc293e37 .sqs-block-alignment-wrapper {
-    align-items: flex-start;
-  }
-
-  @media (min-width: 768px) {
-    .fe-block-644bd8197efb95f4bc293e37 {
-      grid-area: 3/5/6/23;
-      z-index: 2;
-
-      
-    }
-
-    .fe-block-644bd8197efb95f4bc293e37 .sqs-block {
-      justify-content: flex-start;
-    }
-
-    .fe-block-644bd8197efb95f4bc293e37 .sqs-block-alignment-wrapper {
-      align-items: flex-start;
-    }
-  }
-
-  .fe-block-644bd819dd9e9ecbb53844d5 {
-    grid-area: 9/2/10/10;
-    z-index: 3;
-
-    @media (max-width: 767px) {
-      
-    }
-  }
-
-  .fe-block-644bd819dd9e9ecbb53844d5 .sqs-block {
-    justify-content: center;
-  }
-
-  .fe-block-644bd819dd9e9ecbb53844d5 .sqs-block-alignment-wrapper {
-    align-items: center;
-  }
-
-  @media (min-width: 768px) {
-    .fe-block-644bd819dd9e9ecbb53844d5 {
-      grid-area: 6/5/7/23;
-      z-index: 3;
-
-      
-    }
-
-    .fe-block-644bd819dd9e9ecbb53844d5 .sqs-block {
-      justify-content: center;
-    }
-
-    .fe-block-644bd819dd9e9ecbb53844d5 .sqs-block-alignment-wrapper {
-      align-items: center;
-    }
-  }
-
-  .fe-block-644bd819006d0e20d28976fe {
-    grid-area: 11/2/15/10;
-    z-index: 4;
-
-    @media (max-width: 767px) {
-      
-    }
-  }
-
-  .fe-block-644bd819006d0e20d28976fe .sqs-block {
-    justify-content: flex-start;
-  }
-
-  .fe-block-644bd819006d0e20d28976fe .sqs-block-alignment-wrapper {
-    align-items: flex-start;
-  }
-
-  @media (min-width: 768px) {
-    .fe-block-644bd819006d0e20d28976fe {
-      grid-area: 7/5/10/23;
-      z-index: 4;
-
-      
-    }
-
-    .fe-block-644bd819006d0e20d28976fe .sqs-block {
-      justify-content: flex-start;
-    }
-
-    .fe-block-644bd819006d0e20d28976fe .sqs-block-alignment-wrapper {
-      align-items: flex-start;
-    }
-  }
-
-  .fe-block-644bd81956441e94f1661e5d {
-    grid-area: 15/2/16/10;
-    z-index: 5;
-
-    @media (max-width: 767px) {
-      
-    }
-  }
-
-  .fe-block-644bd81956441e94f1661e5d .sqs-block {
-    justify-content: center;
-  }
-
-  .fe-block-644bd81956441e94f1661e5d .sqs-block-alignment-wrapper {
-    align-items: center;
-  }
-
-  @media (min-width: 768px) {
-    .fe-block-644bd81956441e94f1661e5d {
-      grid-area: 10/5/11/23;
-      z-index: 5;
-
-      
-    }
-
-    .fe-block-644bd81956441e94f1661e5d .sqs-block {
-      justify-content: center;
-    }
-
-    .fe-block-644bd81956441e94f1661e5d .sqs-block-alignment-wrapper {
-      align-items: center;
-    }
-  }
-
-  .fe-block-644bd81980b23c2ad0cdc8ee {
-    grid-area: 17/2/32/10;
-    z-index: 6;
-
-    @media (max-width: 767px) {
-      
-    }
-  }
-
-  .fe-block-644bd81980b23c2ad0cdc8ee .sqs-block {
-    justify-content: flex-start;
-  }
-
-  .fe-block-644bd81980b23c2ad0cdc8ee .sqs-block-alignment-wrapper {
-    align-items: flex-start;
-  }
-
-  @media (min-width: 768px) {
-    .fe-block-644bd81980b23c2ad0cdc8ee {
-      grid-area: 11/5/19/23;
-      z-index: 6;
-
-      
-    }
-
-    .fe-block-644bd81980b23c2ad0cdc8ee .sqs-block {
-      justify-content: flex-start;
-    }
-
-    .fe-block-644bd81980b23c2ad0cdc8ee .sqs-block-alignment-wrapper {
-      align-items: flex-start;
-    }
-  }
-
-</style><div class="fluid-engine fe-644bd819f3d2844d471dc2c5"><div class="fe-block fe-block-644bd819b99be461d4d94698"><div class="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-border-radii="&#123;&quot;topLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;topRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;&#125;" id="block-644bd819b99be461d4d94698"><div class="sqs-block-content">
-<div class="sqs-html-content">
-  <h2 style="text-align:center;white-space:pre-wrap; font-family:helvetica;"><strong>Step 1. Personalized Style Profiling</strong></h2>
-</div>
-
-<div class="sqs-html-content">
-  <p class="sqsrte-large" style="white-space:pre-wrap; font-family:helvetica;">The journey begins with users creating personalized style profiles by indicating their preferences, body type, color choices, and fashion inspirations. This step lays the foundation for StylAn's recommendation engine to curate customized style suggestions.</p>
-</div>
-
-<div class="sqs-html-content">
-  <h2 style="text-align:center;white-space:pre-wrap; font-family:helvetica;"><strong>Step 2. Trend Exploration</strong></h2>
-</div>
-
-<div class="sqs-html-content">
-  <p class="sqsrte-large" style="white-space:pre-wrap; font-family:helvetica;">Users explore the latest fashion trends and collections curated by StylAn's team of fashion experts. Through intuitive browsing features, users stay up-to-date with the ever-evolving world of fashion, gaining inspiration for their own unique style journeys.</p>
-</div>
-
-<div class="sqs-html-content">
-    <h2 style="text-align:center;white-space:pre-wrap; font-family:helvetica;"><strong>Step 3. Personalized Recommendations</strong></h2>
-</div>
-
-<div class="sqs-html-content">
-    <p class="sqsrte-large" style="white-space:pre-wrap; font-family:helvetica;">Utilizing advanced algorithms and machine learning techniques, StylAn generates personalized style recommendations based on each user's profile and preferences. Whether it's outfit suggestions for a specific occasion or wardrobe essentials, StylAn ensures that every recommendation aligns with the user's unique style identity.</p>
-</div>
-
-<div class="sqs-html-content">
-    <h2 style="text-align:center;white-space:pre-wrap; font-family:helvetica;"><strong>Step 4. Virtual Styling Experience</strong></h2>
-</div>
-
-<div class="sqs-html-content">
-    <p class="sqsrte-large" style="white-space:pre-wrap; font-family:helvetica;">Users engage in a virtual styling experience, experimenting with different clothing combinations and accessories to create personalized looks. With StylAn's interactive interface, users can visualize how different pieces come together, empowering them to express their individuality through fashion.</p>
-</div>
-
-<div class="sqs-html-content">
-    <h2 style="text-align:center;white-space:pre-wrap; font-family:helvetica;"><strong>Step 5. Seamless Shopping Integration</strong></h2>
-</div>
-
-<div class="sqs-html-content">
-    <p class="sqsrte-large" style="white-space:pre-wrap; font-family:helvetica;">StylAn seamlessly integrates with leading online retailers, allowing users to effortlessly shop for their favorite looks directly within the app. From clothing and accessories to beauty products, StylAn streamlines the shopping experience, making it convenient for users to turn their style inspirations into reality.</p>
-</div>
-
-<div class="sqs-html-content">
-    <h2 style="text-align:center;white-space:pre-wrap; font-family:helvetica;"><strong>Step 6. Community Engagement</strong></h2>
-</div>
-
-<div class="sqs-html-content">
-    <p class="sqsrte-large" style="white-space:pre-wrap; font-family:helvetica;">StylAn fosters a vibrant community where users can share their style inspirations, tips, and experiences with like-minded fashion enthusiasts. Through social features such as user-generated content and style challenges, StylAn creates a supportive environment for users to connect and inspire each other on their style journeys.</p>
-</div>
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-</div></div></div>
-
-  
-
-
-<div
-  class="section-divider-display"
-  style="
-    --stroke-thickness: 6px;
-    --stroke-dasharray: 0;
-    --stroke-linecap: square;
-    
-      
-    
-  "
->
-  <style>
-    .has-section-divider[data-section-id="644bd8190013754528702932"] {
-      padding-bottom: var(--divider-height);
-      z-index: var(--z-index);
-    }
-
-    .has-section-divider[data-section-id="644bd8190013754528702932"] .background-pause-button {
-      bottom: calc(14px + var(--divider-height));
-    }
-
-    .has-section-divider[data-section-id="644bd8190013754528702932"] .section-divider-svg-clip {
-      display: block;
-    }
-
-    .has-section-divider[data-section-id="644bd8190013754528702932"].background-width--inset:not(.content-collection):not(.gallery-section):not(.user-items-list-section) {
-      padding-bottom: calc(var(--sqs-site-gutter) + var(--divider-height));
-    }
-
-    .has-section-divider[data-section-id="644bd8190013754528702932"].background-width--inset:not(.content-collection):not(.gallery-section):not(.user-items-list-section) .section-background {
-      bottom: calc(var(--sqs-site-gutter) + var(--divider-height));
-    }
-
-    .has-section-divider[data-section-id="644bd8190013754528702932"] .section-divider-block {
-      height: var(--divider-height);
-    }
-  </style>
-  
-  <style data-section-divider-style>
-    .has-section-divider[data-section-id="644bd8190013754528702932"] {
-      padding-bottom: 6vw;
-    }
-    .has-section-divider[data-section-id="644bd8190013754528702932"].background-width--inset:not(.content-collection):not(.gallery-section):not(.user-items-list-section) {
-      padding-bottom: calc(var(--sqs-site-gutter) + 6vw);
-    }
-  </style>
-  <div class="section-divider-block"></div>
-  <svg class="section-divider-svg-clip">
-    <clipPath
-      id="section-divider-644bd8190013754528702932"
-      clipPathUnits="objectBoundingBox"
-    >
-      <path class="section-divider-clip" d="M0,0" />
-    </clipPath>
-  </svg>
-  <svg class="section-divider-svg-stroke" viewBox="0 0 1 1" preserveAspectRatio="none">
-    <path class="section-divider-stroke" d="M0,0" vector-effect="non-scaling-stroke" />
-  </svg>
-</div>
-
+<section class="about" id="about">
+<div class="aboutWrap">
+	<div class="aboutOne" data-aos="zoom-in">
+		<img src="IMG_3160.jpg">
+	</div>
+	<div class="aboutTwo" >
+		<h1 style="font-family:helvetica;" data-aos="zoom-in">About me</h1>
+		<p style="font-family:helvetica;" data-aos="fade-up">
+		I’m a user experience designer at Styl Fashion helping create an enterprise-level design application. I am a student at from UNC-Chapel Hill pursuing a B.S. in Information Science and Business Administration with a Human-Computer Interaction focus.
+<br><br>
+My passion for design started overseas, where I was exposed to different languages and cultures at a young age. I was fascinated by how design could transcend language barriers — though I didn’t think of it as eloquently back then! These experiences influenced me both professionally and personally as I focused my interests and areas of expertise at the intersection between humans and technology.
+<br><br>
+When I’m not working, you can find me cheering on the UNC basketball team (Go Heels!), hiking, and film production.
+		 
+		
+		</p>
+	</div></div>
 </section>
 
-  
+
+
+
+
+
+
+
+<section class="portfolio" id="portfolio" >
+<div class="portfoliowrap">
+	<h1 class="portfolioTitle" style="font-family:helvetica;">Portfolio</h1>
+	<div class="portfolioCard" >
+	
+	<div class="portfolioOne" >
+		<img src="portfolioOneImg.png" data-aos="zoom-in">
+	</div>
+	
+	<div class="portfolioTwo" >
+		<h1 style="font-family:helvetica;" data-aos="fade-up">Muse™ Meditation App Redesign</h1>
+		<h3 style="font-family:helvetica;" data-aos="fade-up">Research Project</h3>
+		<p style="font-family:helvetica;" data-aos="fade-up">Re-thinking meditation in a digital age, with a focus on human-centered design principles and best practices.</p>
+		<a style="font-family:helvetica;" href="project-details.html" data-aos="fade-up">View project</a>
+	</div>
+</div>
+	
+	
+	<div class="portfolioCard">
+    <div class="portfolioOne">
+        <img src="collab.png" data-aos="zoom-in" class="portfolioImgTwo">
+    </div>
+    <div class="portfolioTwo">
+        <h1 style="font-family:helvetica;" data-aos="fade-up">Collab: Connecting Students for Collaborative Learning</h1>
+        <h3 style="font-family:helvetica;" data-aos="fade-up">Match-Based Algorithm App</h3>
+        <p style="font-family:helvetica;" data-aos="fade-up">Collab is a revolutionary app designed to foster collaboration among students, connecting them based on shared interests, skills, majors, hobbies, lectures, and professors.</p>
+        <a style="font-family:helvetica;" href="collab-details.html" data-aos="fade-up">Learn More</a>
+    </div>
+</div>
+
+<div class="portfolioCard">
+    <div class="portfolioOne">
+        <img src="IMG_4652.jpeg" data-aos="zoom-in" class="portfolioImgThree">
+    </div>
+    <div class="portfolioTwo">
+        <h1 style="font-family:helvetica;" data-aos="fade-up">StylAn: Your Personal Style Assistant</h1>
+        <h3 style="font-family:helvetica;" data-aos="fade-up">Fashion Recommendation App</h3>
+        <p style="font-family:helvetica;" data-aos="fade-up">StylAn is your ultimate fashion companion, offering personalized style recommendations tailored to your unique preferences and lifestyle. Discover new trends, create stunning looks, and elevate your wardrobe with ease.</p>
+        <a style="font-family:helvetica;" href="stylAn-details.html" data-aos="fade-up">Explore Now</a>
+    </div>
+</div>
+
+
+	
+	</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="contact" id="contact">
+<div class="contactWrap">
+	<div class="contactOne" >
+		<h1 data-aos="zoom-in" style="font-family:helvetica;">Let’s work together.</h1>
+		<p data-aos="zoom-in" style="font-family:helvetica;">I’m always looking for new collaboration opportunities. Reach out<br> and let’s chat!</p>
+		
+		<div class="icons" data-aos="zoom-in">
+			<i class="fa fa-linkedin" aria-hidden="true" ></i>
+			<i class="fa fa-twitter" aria-hidden="true" ></i>
+			<i class="fa fa-envelope" aria-hidden="true" ></i>
+		</div>
+	</div>
+	<div class="contactTwo" data-aos="zoom-in">
+		 <form >
+        <label for="name" style="font-family:helvetica;">Name</label>
+        <input type="text" id="name" name="name" required class="inputss">
+
+        <label for="email" style="font-family:helvetica;">Email</label>
+        <input type="email" id="email" name="email" required class="inputss">
+
+        <label for="message" style="font-family:helvetica;">Message</label>
+        <textarea id="message" name="message" required class="inputss"></textarea>
+
+        <input type="submit" value="Send" class="myContact" style="width:100px; border:none; outline:none;">
+    </form>
+		</div>
+		
+		</div>
+</section>
+
+</div>
+
     
-    
 
-
-  
-
-    
-
-
-  
   
 </article>
-
-
-          
-
-          
-            
-            
-          
-        
-      </main>
+</main>
       <script type="text/javascript">
         const firstSection = document.querySelector('.page-section');
         const header = document.querySelector('.header');
@@ -2134,9 +1354,6 @@ StylAn is your ultimate fashion companion, offering personalized style recommend
         }
         //# sourceURL=headerPositioning.js
       </script>
-
-      
-        <footer class="sections" id="footer-sections" data-footer-sections>
   
   
   
@@ -2152,33 +1369,14 @@ StylAn is your ultimate fashion companion, offering personalized style recommend
 
 
 
-<section class="footer" >
+<div class="footer" >
 <div class="footerwrap">
 		<h1>© 2024 Anya Narayan | LinkedIn</h1>
 			
 	
 </div>
 	
-</section>
-
-<style>
-
-	
-		
-.footer{
-			display:flex;
-			justify-content:center;
-			align-items:center;
-			width:100%;
-			padding:80px 0;
-			background:black;
-			text-align:center;
-}
-.footer h1{
-	color:#fff;
-	font-size:19px;
-	font-family:helvetica;
-}</style>
+</div>
 
 
 
@@ -2189,6 +1387,20 @@ StylAn is your ultimate fashion companion, offering personalized style recommend
 
     <script defer="defer" src="https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.31e4754f5aa3696497094ed1d16acdeb.js" type="text/javascript"></script>
     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display:none" data-usage="social-icons-svg"><symbol id="linkedin-unauth-icon" viewBox="0 0 64 64"><path d="M20.4,44h5.4V26.6h-5.4V44z M23.1,18c-1.7,0-3.1,1.4-3.1,3.1c0,1.7,1.4,3.1,3.1,3.1 c1.7,0,3.1-1.4,3.1-3.1C26.2,19.4,24.8,18,23.1,18z M39.5,26.2c-2.6,0-4.4,1.4-5.1,2.8h-0.1v-2.4h-5.2V44h5.4v-8.6 c0-2.3,0.4-4.5,3.2-4.5c2.8,0,2.8,2.6,2.8,4.6V44H46v-9.5C46,29.8,45,26.2,39.5,26.2z"/></symbol><symbol id="linkedin-unauth-mask" viewBox="0 0 64 64"><path d="M0,0v64h64V0H0z M25.8,44h-5.4V26.6h5.4V44z M23.1,24.3c-1.7,0-3.1-1.4-3.1-3.1c0-1.7,1.4-3.1,3.1-3.1 c1.7,0,3.1,1.4,3.1,3.1C26.2,22.9,24.8,24.3,23.1,24.3z M46,44h-5.4v-8.4c0-2,0-4.6-2.8-4.6c-2.8,0-3.2,2.2-3.2,4.5V44h-5.4V26.6 h5.2V29h0.1c0.7-1.4,2.5-2.8,5.1-2.8c5.5,0,6.5,3.6,6.5,8.3V44z"/></symbol><symbol id="twitter-unauth-icon" viewBox="0 0 64 64"><path d="M48,22.1c-1.2,0.5-2.4,0.9-3.8,1c1.4-0.8,2.4-2.1,2.9-3.6c-1.3,0.8-2.7,1.3-4.2,1.6 C41.7,19.8,40,19,38.2,19c-3.6,0-6.6,2.9-6.6,6.6c0,0.5,0.1,1,0.2,1.5c-5.5-0.3-10.3-2.9-13.5-6.9c-0.6,1-0.9,2.1-0.9,3.3 c0,2.3,1.2,4.3,2.9,5.5c-1.1,0-2.1-0.3-3-0.8c0,0,0,0.1,0,0.1c0,3.2,2.3,5.8,5.3,6.4c-0.6,0.1-1.1,0.2-1.7,0.2c-0.4,0-0.8,0-1.2-0.1 c0.8,2.6,3.3,4.5,6.1,4.6c-2.2,1.8-5.1,2.8-8.2,2.8c-0.5,0-1.1,0-1.6-0.1c2.9,1.9,6.4,2.9,10.1,2.9c12.1,0,18.7-10,18.7-18.7 c0-0.3,0-0.6,0-0.8C46,24.5,47.1,23.4,48,22.1z"/></symbol><symbol id="twitter-unauth-mask" viewBox="0 0 64 64"><path d="M0,0v64h64V0H0z M44.7,25.5c0,0.3,0,0.6,0,0.8C44.7,35,38.1,45,26.1,45c-3.7,0-7.2-1.1-10.1-2.9 c0.5,0.1,1,0.1,1.6,0.1c3.1,0,5.9-1,8.2-2.8c-2.9-0.1-5.3-2-6.1-4.6c0.4,0.1,0.8,0.1,1.2,0.1c0.6,0,1.2-0.1,1.7-0.2 c-3-0.6-5.3-3.3-5.3-6.4c0,0,0-0.1,0-0.1c0.9,0.5,1.9,0.8,3,0.8c-1.8-1.2-2.9-3.2-2.9-5.5c0-1.2,0.3-2.3,0.9-3.3 c3.2,4,8.1,6.6,13.5,6.9c-0.1-0.5-0.2-1-0.2-1.5c0-3.6,2.9-6.6,6.6-6.6c1.9,0,3.6,0.8,4.8,2.1c1.5-0.3,2.9-0.8,4.2-1.6 c-0.5,1.5-1.5,2.8-2.9,3.6c1.3-0.2,2.6-0.5,3.8-1C47.1,23.4,46,24.5,44.7,25.5z"/></symbol><symbol id="email-icon" viewBox="0 0 64 64"><path d="M17,22v20h30V22H17z M41.1,25L32,32.1L22.9,25H41.1z M20,39V26.6l12,9.3l12-9.3V39H20z"/></symbol><symbol id="email-mask" viewBox="0 0 64 64"><path d="M41.1,25H22.9l9.1,7.1L41.1,25z M44,26.6l-12,9.3l-12-9.3V39h24V26.6z M0,0v64h64V0H0z M47,42H17V22h30V42z"/></symbol></svg>
+
+
+
+<!-- aos js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+   AOS.init({
+      duration:800,
+      delay:300
+   });
+
+</script>
 
   </body>
 </html>
