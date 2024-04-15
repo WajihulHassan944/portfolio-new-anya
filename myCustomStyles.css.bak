@@ -372,7 +372,7 @@
 	
 .portfolioCard .portfolioOne .portfolioImgTwo{
 	width:40%;
-	padding-left:33px;
+	padding-left:35px;
 }
 
 }

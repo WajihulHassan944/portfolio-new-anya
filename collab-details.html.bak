@@ -1470,7 +1470,7 @@
 			}
 @media (max-width: 500px) {
 	.myImgsss{
-				margin-left:30%;
+				margin-left:0;
 			}
 
 }
